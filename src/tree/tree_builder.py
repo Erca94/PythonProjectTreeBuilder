@@ -1,6 +1,5 @@
 import os
 import graphviz
-from utils import TimeoutException
 
 
 class TreeBuilder():
@@ -37,7 +36,7 @@ class TreeBuilder():
             'README.rst', 'README.md', 'LICENSE', 'pyproject.toml', 
             'setup.py', 'setup.cfg', 'requirements.txt', '__init__.py', '__main__.py'
         ]
-        self.structure_dirs = ['tests', 'src']
+        self.structure_dirs = ['tests', 'src', 'docs']
         
         
     def _get_color(self, name, tp, level):
@@ -59,7 +58,7 @@ class TreeBuilder():
             the color
         """
         if tp == 'dir':
-            if level > 0 and name in self.structure_dirs:
+            if level == 1 and name in self.structure_dirs:
                 fc = 'green3'
             else:
                 fc = 'white'

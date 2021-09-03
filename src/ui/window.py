@@ -1,12 +1,13 @@
 import sys
+sys.path.append('..')
 import os
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import (QGridLayout, QDialog,
                              QPushButton, QLabel,
                              QLineEdit, QDesktopWidget,
                              QFileDialog)
-from tree_builder import TreeBuilder
-from utils import get_info_box, get_error_box
+from tree.tree_builder import TreeBuilder
+from ui.utils import get_info_box, get_error_box
 
 
 class BuilderWindow(QDialog):

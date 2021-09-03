@@ -1,21 +1,6 @@
 from PyQt5.QtWidgets import QMessageBox
 
 
-class TimeoutException(Exception):
-    """
-    Exception raised when the execution time is too long.
-
-    Attributes
-    ----------
-    message: str 
-        explanation of the error
-    """
-
-    def __init__(self):
-        self.message = "Too much time elapsed: execution blocked!"
-        super().__init__(self.message)
-
-
 def get_info_box():
     """
     Get the message box for building the tree (everything ok)
