@@ -24,4 +24,4 @@ As example, into the repository there is a fake python project whom root folder 
     └── requirements.txt
 
 The tree structure build by the tool is the following: 
-![alt text](https://github.com/Erca94/PythonProjectTreeBuilder/blob/main/img/screenshot_app.png)
+![alt text](https://github.com/Erca94/PythonProjectTreeBuilder/blob/main/example_tree/project_root_example.pdf)
