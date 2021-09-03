@@ -22,3 +22,6 @@ As example, into the repository there is a fake python project whom root folder 
     │   ├── file.json
     ├── README.md
     └── requirements.txt
+
+The tree structure build by the tool is the following: 
+![alt text](https://github.com/Erca94/PythonProjectTreeBuilder/blob/main/img/screenshot_app.png)
