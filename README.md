@@ -25,3 +25,6 @@ As example, into the repository there is a fake python project whom root folder 
 
 The tree structure build by the tool is the following: 
 ![alt text](https://github.com/Erca94/PythonProjectTreeBuilder/blob/main/example_tree/structure.png)
+
+Btw, the tool can be used for building the structure of any folder, not only Python projects!
+However, it's been thought to build the structure of Python projects.
