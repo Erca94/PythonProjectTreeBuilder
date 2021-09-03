@@ -1,9 +1,9 @@
 # PythonProjectTreeBuilder
 
 This desktop application helps to understand the structure of a Python project, producing a visual layer; 
-this can be done building a tree of the project structure and representing it in a PDF file. 
+this can be done building a tree of the project structure using the library Graphviz and representing it with a PDF file. 
 
-As example, into the repository there is a fake python project whom root folder name is "project_root_example"; let's suppose that this is a real Python project; the internal structure of the project is as follows:
+As example, into the repository there is a fake Python project whom root folder name is "project_root_example"; let's suppose that this is a real Python project; the internal structure of the project is as follows (of course, the content of the files is empty!):
 
     project_root_example
     ├── src
@@ -23,7 +23,8 @@ As example, into the repository there is a fake python project whom root folder 
     ├── README.md
     └── requirements.txt
 
-The tree structure build by the tool is the following: 
+The tool is able to build a tree structure as follows: 
+
 ![alt text](https://github.com/Erca94/PythonProjectTreeBuilder/blob/main/example_tree/structure.png)
 
 Btw, the tool can be used for building the structure of any folder, not only Python projects!
